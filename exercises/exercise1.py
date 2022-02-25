@@ -1,19 +1,19 @@
 # 1. Hello World
-# Can you make a typo that generates an error?
+# 1.1 Can you make a typo that generates an error?
 # pri nt('Hello World')
 #   File "exercise1.py", line 1
 #     pri nt('Hello World')
 #         ^
 # SyntaxError: invalid syntax
 
-# Can you make sense of the error message?
+# 1.2 Can you make sense of the error message?
 # 'nt' is not a base function so there is no syntax for it
 
-# Can you make a typo that doesn’t generate an error?
+# 1.3 Can you make a typo that doesn’t generate an error?
 # print("Helo World")
 # Helo World
 
-# Why do you think it didn't make an error?
+# 1.4 Why do you think it didn't make an error?
 # print is a valid function and PyCharm doesn't seem to have a base
 # spellcheck for the string inside of print.
 
