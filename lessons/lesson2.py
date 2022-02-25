@@ -57,6 +57,7 @@ up, down, left = 'town', 'ok', 'right'
 class MyFirstClass:
     name = 'Ethan'
 
+    # This is a method rather than a function because it is inside the class
     def something(self):
         print('Something')
 
