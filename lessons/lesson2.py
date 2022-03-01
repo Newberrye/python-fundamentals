@@ -1,7 +1,7 @@
 # My Application Overview Lesson
 
 # This function should be lowercase and if more than one word it should have
-# an underscore to separate each word. You should have a paranthesis after
+# an underscore to separate each word. You should have a parenthesis after
 # the name followed by a colon. Statements that are part of a function should
 # be 4 spaces indented
 
@@ -14,8 +14,8 @@ def my_function():
 my_function()
 
 
-# When defining a function with argyments, those argynebts go in between the
-# paranthesis and separated by commas
+# When defining a function with arguments, those arguments go in between the
+# parenthesis and separated by commas
 
 def my_other(arg1, arg2):
     print(arg1)
@@ -29,7 +29,7 @@ my_other("Red", "Green")
 # - must start with a letter or and underscore
 # - Can not begin with a number
 # - Can only contain alpha-numeric character and underscores
-# - Are case sensitive
+# - Are case-sensitive
 
 # The variables are on the left while the literal value is on the right
 value = 'Blue'
