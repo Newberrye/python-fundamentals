@@ -276,14 +276,14 @@ print('9.5 Login Attempts')
 class UserNext:
     # Set default login attempts to 0 because all new users should have 0.
     def __init__(self, first_name, last_name, age, location, eye_color,
-                 lifepoints, login_attempts=0):
+                 lifepoints):
         self.first_name = first_name
         self.last_name = last_name
         self.age = age
         self.location = location
         self.eye_color = eye_color
         self.lifepoints = lifepoints
-        self.login_attempts = login_attempts
+        self.login_attempts = 0
 
     def describe_user(self):
         print(f'First Name: {self.first_name}')
