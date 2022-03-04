@@ -1,4 +1,4 @@
-# Problem #4 says exercises 9.1 to 9.11 but the page only has uo to 9.3. I'm
+# Problem #3 says exercises 9.1 to 9.11 but the page only has uo to 9.3. I'm
 # assuming that was a typo.
 
 # Write functions for each of the items below. Call the function to ensure
