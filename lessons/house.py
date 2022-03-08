@@ -45,3 +45,27 @@ class House:
 my_house = House(23, 'concrete', 'shingle', 'red')
 print(my_house.door_color)
 my_house.door_open_close()
+
+
+# Child class of House
+class Condo(House):
+    def __init__(self, window, foundation, roof_style, door_color, balcony):
+        super().__init__(window, foundation, roof_style, door_color)
+        self._balcony = balcony
+
+    @property
+    def balcony(self):
+        return self._balcony
+
+    @balcony.setter
+    def balcony(self, balcony):
+        self._balcony = balcony
+
+    def maintenance(self):
+        print(str.format('Maintenance request needed for {}', self._balcony))
+
+
+my_condo = Condo(20, 'clay', 'steel', 'white', 'large rail balcony')
+print(my_condo.roof_style)
+print(my_condo.door_open_close())
+print(my_condo.maintenance())
