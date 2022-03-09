@@ -19,7 +19,6 @@ print('#1 Problem')
 #  test). Write a method called test_city_country() to verify that calling
 #  your function with values such as 'santiago' and 'chile' results in the
 #  correct string. Run test_cities.py, and make sure test_city_country() passes.
-print('11.1 City, Country')
 
 
 class TestCity(unittest.TestCase):
@@ -45,8 +44,6 @@ print('#2 Problem')
 #   can call your function with the values 'santiago', 'chile',
 #   and 'population=5000000'. Run test_cities.py again, and make sure this new
 #   test passes.
-print('11.2 Population')
-# Already imported p
 
 
 class TestCityPopulation(unittest.TestCase):
