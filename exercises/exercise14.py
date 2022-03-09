@@ -2,10 +2,10 @@
 # Unittest doesn't seem to be able to read the Test class when it is placed
 # inside of a function.
 
-# Write functions for each of the items below. Call the function to ensure
-# the results are correct.
-
+# Importing both of these here since unittest is used for all problems and
+# the module is used for problem 1 and 2.
 import unittest
+from exercises.exercise14_modules.city_functions import get_city_country
 
 # 1.On page 215 of your book, do 11-1 of the Try it Yourself. Put all your
 # code in your exercise14.py file.
@@ -20,9 +20,6 @@ print('#1 Problem')
 #  your function with values such as 'santiago' and 'chile' results in the
 #  correct string. Run test_cities.py, and make sure test_city_country() passes.
 print('11.1 City, Country')
-# Importing here to keep problem 1 code with problem 1 even though it is also
-# used in problem 2.
-from exercises.exercise14_modules.city_functions import get_city_country
 
 
 class TestCity(unittest.TestCase):
@@ -93,7 +90,7 @@ class TestEmployee(unittest.TestCase):
     """Tests Employee Class"""
 
     def setUp(self):
-        """Sets up Employee testing conditions"""
+        """Sets up an employee to test"""
         self.employee = Employee('Larry', 'King', 50_000)
 
     def test_default_raise(self):
