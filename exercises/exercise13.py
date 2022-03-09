@@ -1,5 +1,5 @@
-# We have never done printing_models.py for 8.15 in problem 1. I made a bare
-# minimum files to do it.
+# I could not find printing_models.py, so I created some basic files instead
+# for 8.15 to 8.17
 
 # Write functions for each of the items below. Call the function to ensure
 # the results are correct.
